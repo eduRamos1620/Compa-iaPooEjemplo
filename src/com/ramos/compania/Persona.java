@@ -6,6 +6,10 @@ public class Persona {
     private String numFiscal;
     private String direccion;
 
+    public Persona(){
+
+    }
+
     public String getNombre() {
         return nombre;
     }

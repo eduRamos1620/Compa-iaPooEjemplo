@@ -4,6 +4,10 @@ public class Empleado extends Persona{
     private double remuneracion;
     private int empleadoId;
 
+    public Empleado(){
+
+    }
+
     public double getRemuneracion() {
         return remuneracion;
     }
