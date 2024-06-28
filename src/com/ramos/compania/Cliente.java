@@ -1,4 +1,4 @@
 package com.ramos.compania;
 
-public class Cliente {
+public class Cliente extends Persona{
 }

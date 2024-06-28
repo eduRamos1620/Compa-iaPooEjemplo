@@ -1,4 +1,4 @@
 package com.ramos.compania;
 
-public class Gerente {
+public class Gerente extends Empleado{
 }
