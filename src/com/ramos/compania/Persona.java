@@ -6,8 +6,11 @@ public class Persona {
     private String numFiscal;
     private String direccion;
 
-    public Persona(){
-
+    public Persona(String numFiscal, String nombre, String apellido, String direccion){
+        this.numFiscal = numFiscal;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.direccion = direccion;
     }
 
     public String getNombre() {
