@@ -15,4 +15,10 @@ public class Gerente extends Empleado{
     public void setPresupuesto(double presupuesto) {
         this.presupuesto = presupuesto;
     }
+
+    @Override
+    public String toString() {
+        return "presupuesto=" + presupuesto +
+                super.toString();
+    }
 }

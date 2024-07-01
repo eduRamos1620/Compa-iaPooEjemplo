@@ -25,4 +25,14 @@ public class Empleado extends Persona{
     public void setEmpleadoId(int empleadoId) {
         this.empleadoId = empleadoId;
     }
+
+    public void aumento(int porcentaje){
+        this.remuneracion += remuneracion * porcentaje/100;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "remuneracion=" + remuneracion +
+                ", empleadoId=" + empleadoId;
+    }
 }
